@@ -11,16 +11,18 @@
             emailjs.init("jmidyFjywF0ITev72"); // Replace with your public key
         })();
     </script>
-</head>
+    <div id="fb-root"></div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="tRiWEPkL"></script></head>
 <body>
   <div id="menu">
-    <a href="#about">About Me</a>
-    <a href="#photos">My Photos</a>
-    <a href="#playlist">My Playlist</a>
+    <a href="#about">About My Grandmother</a>
+    <a href="#photos">Photos</a>
+    <a href="#playlist">Favorite Music</a>
     <a href="#like">Like</a>
     <a href="#qrcoder">QR code</a>
     <a href="#spa">Q&A</a>
-    <a href="#contact">Contact Me</a>
+    <a href="#contact">Contact</a>
   </div>
   
 <section id="about" class="section">
@@ -173,7 +175,15 @@
   0cm;margin-left:12.6pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
   mso-bidi-font-weight:bold'>- 1996 got the title of outstanding teacher, recognized
   by the Russian federation. <o:p></o:p></span></p>
-  
+  <br>
+  <p style='margin-top:2.6pt;margin-right:5.45pt;margin-bottom:
+  0cm;margin-left:12.6pt;margin-bottom:.0001pt'><strong><span style="font-size:18px;color:black;">Hobbies:</span></strong></p>
+<p style='margin-top:2.6pt;margin-right:5.45pt;margin-bottom:
+0cm;margin-left:12.6pt;margin-bottom:.0001pt'><span style="font-size:18px;color:black;">- Loves traveling and exploring the world and learning different cultures. Been to Italy, France, Bulgaria and comes to Israel every few years.</span></p>
+<p style='margin-top:2.6pt;margin-right:5.45pt;margin-bottom:
+0cm;margin-left:12.6pt;margin-bottom:.0001pt'><span style="font-size:18px;color:black;">- Loves reading books, favorite author &quot;</span><b style="text-align:start;"><span style="font-size:14px;color:#202122;background:white;">Anton Pavlovich Chekhov&quot;&nbsp;</span></b></p>
+<p style='margin-top:2.6pt;margin-right:5.45pt;margin-bottom:
+  0cm;margin-left:12.6pt;margin-bottom:.0001pt'><span style="font-size:18px;color:black;">-</span><strong><span style="font-size:18px;color:black;">&nbsp;</span></strong><span style="font-size:18px;color:black;">enjoys culinary.</span></p>
   <!-- <p class=MsoNormal style='margin-top:2.6pt;margin-right:5.45pt;margin-bottom:
   0cm;margin-left:12.6pt;margin-bottom:.0001pt'><b style='mso-bidi-font-weight:
   normal'><span style='font-size:12.0pt'><span style='mso-spacerun:yes'>�</span><span
@@ -227,16 +237,6 @@
   </div>
 </section>
 
-<section id="like" class="section">
-  <hr/>
-  <h2>Give me a Like</h2>
-</section>
-
-<section id="qrcoder" class="section">
-  <hr/>
-  <h2>Scan my Code</h2>
-
-</section>
 
 <section id="spa" class="section">
   <hr/>
@@ -288,7 +288,7 @@
   
 </section>
 
-<section id="contact-form-section" class="section">
+<section id=contact id="contact-form-section" class="section">
   <hr/>
         <h2>Contact her via my email</h2>
         <form id="contact-form">
@@ -310,6 +310,21 @@
             <button type="button" onclick="sendEmail()">Send</button>
         </form>
     </section>
+    <section id = share-section>
+    <section id = "qrcoder" id="share-section"  class="centered-section">
+      <h3>Share this site with others</h3>
+      <div class="centered-container">
+        <div class="fb-like" data-href="https://wed-2023.github.io/210020053/" data-width="" data-layout="" data-action="" data-size="" data-share="false"></div>
+          <button id="like">
+              
+          </button>
+          <img src="images/QR_code.png" alt="QR Code" id="qr-code">      
+      </div>
+  </section>
+</section>
+
+
+
   
 </section>
 <script src="script.js"></script>

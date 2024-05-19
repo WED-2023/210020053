@@ -157,3 +157,42 @@ body {
 #contact-form button:hover {
     background-color: #0056b3;
 }
+
+.centered-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#like {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#like img {
+    width: 24px;
+    height: 24px;
+}
+
+#qr-code {
+    width: 100px;
+    height: auto;
+	
+}
+#share-section {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 100px; /* Add space at the bottom */
+  }

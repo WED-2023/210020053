@@ -39,3 +39,14 @@ function sendEmail() {
     });
 }
 
+function toggleLike() {
+    const likeIcon = document.getElementById('like-icon');
+    const isLiked = likeIcon.src.includes('blue_like.png');
+    
+    // Toggle between liked and unliked states
+    if (isLiked) {
+        likeIcon.src = 'images/like.png'; // Change to gray (unliked)
+    } else {
+        likeIcon.src = 'images/blue_like.png'; // Change to blue (liked)
+    }
+}
